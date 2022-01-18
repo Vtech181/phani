@@ -63,7 +63,9 @@ public class DataProviderService {
     public RootObjectForReportWithSubreport getRootObjectForReportWithSubreport() {
         return RootObjectForReportWithSubreport.builder()
                 .name("John")
+                .id(4321)
                 .surname("Doe")
+                .REPORT_COUNT(1)
                 .amount(BigDecimal.valueOf(16.89))
                 .numberOfDays(15)
                 .bigDebts(

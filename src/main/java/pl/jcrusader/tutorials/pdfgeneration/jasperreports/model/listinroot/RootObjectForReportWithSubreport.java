@@ -14,6 +14,8 @@ import java.util.List;
 @Builder
 @Getter
 public class RootObjectForReportWithSubreport {
+    private Integer id;
+    private Integer REPORT_COUNT;
     private String name;
     private String surname;
     private BigDecimal amount;

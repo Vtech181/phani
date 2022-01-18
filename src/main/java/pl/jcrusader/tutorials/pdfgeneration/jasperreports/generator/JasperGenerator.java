@@ -13,7 +13,10 @@ import pl.jcrusader.tutorials.pdfgeneration.jasperreports.exception.CannotFillRe
 import pl.jcrusader.tutorials.pdfgeneration.jasperreports.exception.CannotPrepareJsonDataSourceException;
 
 import java.io.InputStream;
-import java.util.*;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * This class acts as common point for all things happening around JasperReports.
